@@ -3,7 +3,15 @@ import matplotlib.pyplot as plt
 import nltk
 nltk.download('punkt_tab')
 
+##def read_docx(file_path):
+  #  doc = docx.Document(file_path)
+   # full_text = ' '.join([para.text for para in doc.paragraphs])
+    #return full_text
 
+# Load documents from .docx files
+#document1 = read_docx(r'C:\Users\Win10\Desktop\muruga\doc1.docx')
+#document2 = read_docx(r'C:\Users\Win10\Desktop\muruga\doc2.docx')
+###
 
 from nltk.tokenize import word_tokenize
 from wordcloud import WordCloud
